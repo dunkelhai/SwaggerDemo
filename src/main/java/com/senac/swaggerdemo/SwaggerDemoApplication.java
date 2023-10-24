@@ -18,7 +18,7 @@ public class SwaggerDemoApplication {
 
     @GetMapping("/hello")
     public String hello(@RequestParam(value = "name", defaultValue = "Swagger") String name) {
-        return String.format("Hello %s! This is a simple Swagger demo.", name);
+        return String.format("Olá %s! Teste de Swagger!", name);
     }
 }
 
